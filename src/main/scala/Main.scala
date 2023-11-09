@@ -39,7 +39,6 @@ def additions(prices: Map[String, Int], messages: List[Message]): List[(Int, Int
     Invoice(3)
   )
 
-  var mess = "" // Variable pour stocker le message "Merci"
   val result = additions(prices, exemple)
 
   result.foreach {
